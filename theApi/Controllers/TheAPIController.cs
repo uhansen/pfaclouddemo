@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace pfaclouddemoAPI.Controllers
+namespace theApi.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class PfaDemoApiController : ControllerBase
+    public class TheAPIController : ControllerBase
     {
         // GET: api/<ValuesController>
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2","value3","value4" };
+            return new string[] { "value1", "value2" };
         }
 
         // GET api/<ValuesController>/5

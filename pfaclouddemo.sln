@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pfademostorage", "pfademost
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pfaclouddemofunction", "pfaclouddemofunction\pfaclouddemofunction.csproj", "{8B11A23D-2D12-4BAB-8FD0-93B2C4B701C8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pfaclouddemoAPI", "pfaclouddemoAPI\pfaclouddemoAPI.csproj", "{F651AFB0-A40D-442B-9D80-C6DE618192F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "theApi", "theApi\theApi.csproj", "{F618DB98-FA92-4E33-8AD2-421A62C6A59C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{8B11A23D-2D12-4BAB-8FD0-93B2C4B701C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B11A23D-2D12-4BAB-8FD0-93B2C4B701C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B11A23D-2D12-4BAB-8FD0-93B2C4B701C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F651AFB0-A40D-442B-9D80-C6DE618192F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F651AFB0-A40D-442B-9D80-C6DE618192F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F651AFB0-A40D-442B-9D80-C6DE618192F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F651AFB0-A40D-442B-9D80-C6DE618192F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F618DB98-FA92-4E33-8AD2-421A62C6A59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F618DB98-FA92-4E33-8AD2-421A62C6A59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F618DB98-FA92-4E33-8AD2-421A62C6A59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F618DB98-FA92-4E33-8AD2-421A62C6A59C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

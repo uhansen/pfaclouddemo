@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace pfaclouddemoAPI
+namespace theApi
 {
     public class Startup
     {
@@ -30,19 +30,19 @@ namespace pfaclouddemoAPI
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "pfaclouddemoAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "theApi", Version = "v1" });
             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
+            //if (env.IsDevelopment())
+            //{
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "pfaclouddemoAPI v1"));
-            }
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "theApi v1"));
+            //}
 
             app.UseHttpsRedirection();
 
